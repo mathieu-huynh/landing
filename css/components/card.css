@@ -1,0 +1,38 @@
+body{
+	background-size: contain;
+	background-position: bottom;
+	background-image: url("https://staticc.sportskeeda.com/editor/2023/03/bec94-16781895281334-1920.jpg");
+}
+.card{
+	padding:20px;
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	box-shadow: px 10px 80px rbga(0,0,0,0.8);
+	border-radius: 6px;
+	margin: 10px 0px;
+	flex-basis: 250px;
+	flex-grow: 1;
+}
+
+.card img{
+	width: 150px;
+	border-radius: 13px;
+}
+
+.card h3{
+
+	flex-grow: 1;
+	padding-left: 20px;
+	font-size: 18px;
+}
+
+.cards{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+a:hover {
+	background-color: #F5BAC5;
+	color: black;
+}
